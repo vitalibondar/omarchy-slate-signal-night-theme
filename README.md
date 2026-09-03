@@ -6,7 +6,7 @@ A dark Omarchy theme for people who read a lot of text on a small screen. Grey c
 
 I work on a 14" 1920x1080 ThinkPad and my eyesight is minus six. Pure black on that panel makes the bottom of the ramp unreliable, and bright status colours glow in a dark room. So the ground is off-black (`#15171a`), body text is capped below pure white at 12.7:1, and the status colours are about 15% less saturated than in the day theme. The blue (`#82b4ea`) is the only colour that carries meaning: links, the accent, the border of the focused window.
 
-Selection is a plain fill (`#455566`). No terminal or editor that Omarchy themes exposes a selection edge, so the region is carried by the fill alone and the selected text is drawn in the brightest foreground. That lands at 6.9:1, a hair under the 7:1 I aimed for, and I think that is the right trade: a darker band would be less visible as a region, a lighter one would eat the text.
+Selection is a plain fill (`#455566`). But no terminal or editor that Omarchy themes exposes a selection edge, so the region is carried by the fill alone and the selected text is drawn in the brightest foreground. That lands at 6.9:1, a hair under the 7:1 I aimed for, and I think that is the right trade: a darker band would be less visible as a region, a lighter one would eat the text.
 
 ## Install
 
@@ -14,7 +14,7 @@ Selection is a plain fill (`#455566`). No terminal or editor that Omarchy themes
 omarchy theme install https://github.com/vitalibondar/omarchy-slate-signal-night-theme.git
 ```
 
-Two wallpapers ship with the theme. `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them.
+Two wallpapers ship with the theme. And they are part of it, not an afterthought: `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them.
 
 ## The pair
 
