@@ -4,7 +4,7 @@ A dark Omarchy theme for people who read a lot of text on a small screen. Grey c
 
 ## Why it looks like this
 
-I work on a 14" 1920x1080 ThinkPad and my eyesight is minus six. Pure black on that panel makes the bottom of the ramp unreliable, and bright status colours glow in a dark room. So the ground is off-black (`#15171a`), body text is capped below pure white at 12.7:1, and the status colours are about 15% less saturated than in the day theme. The blue (`#82b4ea`) is the only colour that carries meaning: links, the accent, the border of the focused window.
+I work on a 14" 1920x1080 ThinkPad, I am short-sighted, and I read a lot of small text up close. Pure black on that panel makes the bottom of the ramp unreliable, and bright status colours glow in a dark room. So the ground is off-black (`#15171a`), body text is capped below pure white at 12.7:1, and the status colours are about 15% less saturated than in the day theme. The blue (`#82b4ea`) is the only colour that carries meaning: links, the accent, the border of the focused window.
 
 Selection is a plain fill (`#455566`). But no terminal or editor that Omarchy themes exposes a selection edge, so the region is carried by the fill alone and the selected text is drawn in the brightest foreground. That lands at 6.9:1, a hair under the 7:1 I aimed for, and I think that is the right trade: a darker band would be less visible as a region, a lighter one would eat the text.
 
@@ -39,4 +39,4 @@ New. It went onto my own machine on 3 September 2026, and previews will follow o
 
 ## Credits
 
-Palette and decisions were worked out in Claude Design against Omarchy 4.0.2 templates, and installed with Claude Code. The wallpapers were generated with ChatGPT for this theme. MIT, wallpapers included.
+The brief and every prompt came from ChatGPT (GPT-5.6). Claude Design executed them into the palette, checked against Omarchy 4.0.2 templates, and Claude Code did the install. The wallpapers were generated with ChatGPT as well. MIT, wallpapers included.
