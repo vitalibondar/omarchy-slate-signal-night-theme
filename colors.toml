@@ -1,0 +1,36 @@
+# Slate Signal — Night
+# Same hues as Day, lightness order reversed. Ground lifted off black,
+# body text capped below pure white, status chroma reduced ~15% so nothing
+# glows in a dark room. Selection fill is the honest tradeoff (see contrast).
+
+mode = "dark"
+
+accent    = "#82b4ea"   # blue == accent == link
+selection = "#455566"   # fill/bg 2.35:1 ; derived fg (bright) keeps text ~6.9:1
+muted     = "#8b939c"   # secondary text, doubles as ANSI 8 (color8)
+
+background        = "#15171a"   # off-black: avoids end-of-ramp instability
+dark_background   = "#101215"
+darker_background = "#0b0c0e"
+lighter_background = "#1d2024"  # raised surface
+
+foreground        = "#d6d9dd"   # body text, 12.7:1
+dark_foreground   = "#a7aeb6"
+light_foreground  = "#e2e5e9"
+bright_foreground = "#f2f4f6"   # emphasis, 16.3:1
+
+red     = "#f18b82"   # urgent / error
+yellow  = "#e2b463"   # warning
+orange  = "#e0a072"
+green   = "#85c98d"   # success
+cyan    = "#6fc5cb"
+blue    = "#82b4ea"
+magenta = "#c59ce4"
+brown   = "#b08a63"
+
+bright_red     = "#ff9d94"
+bright_yellow  = "#f0c877"
+bright_green   = "#9bd9a2"
+bright_cyan    = "#86d6db"
+bright_blue    = "#9cc6f5"
+bright_magenta = "#d4b0ef"
